@@ -2,19 +2,38 @@ body, html, * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: SUSE;
+}
+
+body {
+    text-align: center;
 }
 
 .big-container {
-    display: flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 img {
-    width: 8rem;
+    width: 100%;
+}
+
+h1 {
+    font-size: 10vw;
+}
+
+h2 {
+    font-size: 5vw;
 }
 
 .small-container {
-    display: flexbox;
-    flex-direction: column;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;  
+    justify-content: space-between; 
+    width: 25vw;
     padding: 0.5rem;
+    margin: 2rem;
     border: solid 3px black;
 }
