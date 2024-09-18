@@ -20,11 +20,11 @@ img {
 }
 
 h1 {
-    font-size: 10vw;
+    font-size: 8vw;
 }
 
 h2 {
-    font-size: 5vw;
+    font-size: 3vw;
 }
 
 .small-container {
@@ -32,8 +32,49 @@ h2 {
     flex-direction: column; 
     align-items: center;  
     justify-content: space-between; 
-    width: 25vw;
+    width: 20vw;
     padding: 0.5rem;
-    margin: 2rem;
+    margin: 4vw;
     border: solid 3px black;
+}
+
+.anim-1 {
+    transition: 0.5s;
+
+}
+
+.anim-2 {
+    transition: 1s;
+}
+
+.anim-3 {
+    transition: 1s;
+}
+
+.anim-4 {
+
+}
+
+.anim-5 {
+
+}
+
+.anim-1:hover {
+    transform: scale(1.3);
+}
+
+.anim-2:hover {
+    transform: rotate(1turn);
+}
+
+.anim-3:hover {
+    transform: rotate(1turn) scale(0.8) rotate(1turn) scale(1.25);
+}
+
+.anim-4:hover {
+
+}
+
+.anim-5:hover {
+
 }
