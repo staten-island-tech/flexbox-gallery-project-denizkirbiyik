@@ -20,11 +20,11 @@ img {
 }
 
 h1 {
-    font-size: 8vw;
+    font-size: 12vw;
 }
 
 h2 {
-    font-size: 3vw;
+    font-size: 3rem;
 }
 
 .small-container {
@@ -77,4 +77,10 @@ h2 {
 
 .anim-5:hover {
     transform: matrix(2, 2, 2, 1, 0, 0);
+}
+
+@media screen and (max-width: 800px) {
+    .big-container {
+        flex-direction: column;
+    }
 }
